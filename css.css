@@ -1,0 +1,418 @@
+#header {
+  background-image: url("./livingrooms/1.1.jpg.jpg");
+  /*display: flex;*/
+  height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+}
+
+body {
+  margin: 0px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  color: #17041A;
+  font-size: larger;
+  font-weight: bolder;
+  border-style: none;
+  border-style: hidden;
+  text-decoration: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.6;;
+}
+#child1 {
+  display: flex;
+  position: fixed;
+  background-color: #fce5a6;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  height: 55px;
+}
+#work {
+  margin-top: 100px;
+  display: grid;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(83, 77, 77);
+}
+.branch {
+  color: honeydew;
+  display: flex;
+  justify-content: space-around;
+}
+#photo_header {
+  width: 350px;
+  height: 70px;
+  background-color: rgb(75, 14, 14);
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  margin: -25px 0 0 -25px;
+  opacity: 0.9;
+  text-align: center;
+  color: rgb(235, 235, 235);
+  font-size: x-large;
+  font-weight: bolder;
+}
+/*for button login*/
+
+.for_login{
+
+  width: 380px;
+  height:450px;
+  position: relative;
+  margin: 7% auto;
+  padding: 10px;
+  background: rgb(201, 199, 199);
+  z-index: 1;
+  border-radius: 5px;
+}
+.button_log{
+
+  width: 220px;
+  margin:  35px auto;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 9px #2D100C;
+}
+.btn_log{
+
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  outline: none;
+  position: relative;
+  color: #ffffff;
+}
+#bunt{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 115px;
+  height: 100%;
+  background: linear-gradient(to right,#2D100C,#19210E);
+  border-radius: 25px;
+  transition: .5s;
+}
+.inputs{
+
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  
+}
+.inside_input{
+  width: 100%;
+  padding: 10px 0;
+  margin:  5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom:  1px solid #1A2310;
+  outline: none;
+  background:none;
+  background-color: none;
+}
+
+.sub_btn{
+  width: 250px;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  background-color: #1E110D;
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+  color: white;
+}
+.check{
+  margin: 30px 10px 30px 0;
+}
+#spn{
+
+  color: #464545;
+  font-size: 15px;
+  position: absolute;
+  bottom: 65px;
+}
+#loIn{
+  left: 50px;
+}
+#rig{
+  left: 450px;
+ 
+}
+
+#password1 {
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid rgb(231, 223, 223);
+  width: 300px;
+  height: 20px;
+}
+
+#for_card {
+  margin-top: 200px;
+  height: 800px;
+  background-color: rgb(253, 253, 253);
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.div_card {
+  display: grid;
+  justify-content: center;
+}
+.div_card img {
+  width: 300px;
+  height: 500px;
+  background-color: floralwhite;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.div_card h4 {
+  flex-shrink: 0;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Design-Button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 50px;
+  border-radius: 5px;
+  background-color: #2C100C;
+}
+
+#div_about {
+  margin-top:50px;
+  height: 800px;
+  font-size: 22px;
+  font-weight: 300;
+  color: #464545;
+  line-height: 160%;
+  font-family: Lato, sans-serif;
+  justify-content: space-around;
+  display: grid;
+  margin-bottom: 40px;
+  background-image: url("./livingrooms/0.7.jpg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.p_about {
+  font-weight: 600;
+  padding: 10px;
+  color: #141313;
+  text-align: center;
+  line-height: 160%;
+  font-size: 22px;
+  font-family: Lato, sans-serif;
+}
+.p_about1 {
+  color: #000000;
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
+  line-height: 160%;
+  font-size: 22px;
+  font-family: Lato, sans-serif;
+}
+
+#Where {
+  margin-top: 200px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  height: 500x;
+  justify-content: center;
+  background-image: url("./livingrooms/0.0.jpg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.feed_back {
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid rgb(231, 223, 223);
+  width: 300px;
+  height: 20px;
+}
+
+#message {
+  width: 642px;
+  height: 20px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 5px;
+
+  border: 1px solid rgb(231, 223, 223);
+}
+#button_send {
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #2D100C;
+  color: #fafafa;
+}
+#hello img {
+  display: grid;
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border-bottom: 2px solid #826c56;
+  margin-left: 200px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+
+th {
+  background: #2C100C;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #f5f5f5;
+}
+td {
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid #826c56;
+  color: #fcfcfc;
+}
+
+.Design-Button1 {
+  width: 100px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 15px;
+
+  border-radius: 5px;
+  background-color: #2C100C;
+}
+/* The Modal (background)******************************** */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content span {
+  color: rgb(228, 205, 74);
+  font-weight: bolder;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/********************************for dropdown list*/
+.dropbtn {
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*for footer style*/
+
+footer {
+  display: grid;
+  justify-content: center;
+  height: 250px;
+  background-color: #c6a23f;
+  box-sizing: border-box;
+}
+
+#link {
+  margin-top: 20px;
+  text-decoration: none; /*for link to top*/
+  font-size: 30px;
+  color: #fdfdfd;
+  padding-top: 20px;
+  opacity: 0.8;
+}
+#link:hover {
+  /*hover for link top*/
+  opacity: 1;
+}
+.icon:hover {
+  /*hover for links facebook.....*/
+
+  color: #eee;
+}
